@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="280px" viewBox="0 0 1440 280" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="85.614321%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="85.614321%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="18.7342016%" x2="50%" y2="99.7898002%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Copy-3" transform="translate(0.000000, -6555.000000)">
+            <g id="bg" transform="translate(0.000000, 6555.000000)">
+                <path d="M0,54.3247814 C174.880208,-18.1082605 371.78125,-18.1082605 590.703125,54.3247814 C919.085937,162.974344 1182.60937,-38.394229 1488.42187,74.7743158 C1692.29687,150.220012 1858.92188,143.403501 1988.29688,54.3247814 L1988.29688,280 L0,280" id="Path-5" fill="url(#linearGradient-1)" opacity="0.5"></path>
+                <path d="M0,53.9367473 C126.830788,-17.9789158 269.63205,-17.9789158 428.403785,53.9367473 C666.561387,161.810242 857.680128,-38.1199845 1079.46875,74.2402136 C1227.32783,149.147012 1348.17158,142.37919 1442,53.9367473 L1442,278 L0,278" id="Path-5" fill="url(#linearGradient-2)" opacity="0.5"></path>
+                <path d="M0,53.9367473 C126.830788,-17.9789158 269.63205,-17.9789158 428.403785,53.9367473 C666.561387,161.810242 857.680128,-38.1199845 1079.46875,74.2402136 C1227.32783,149.147012 1348.17158,142.37919 1442,53.9367473 L1442,278 L0,278" id="Path-5" fill="url(#linearGradient-3)" transform="translate(721.000000, 139.000000) scale(-1, 1) translate(-721.000000, -139.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

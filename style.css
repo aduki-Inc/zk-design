@@ -1,0 +1,188 @@
+@media screen and (min-width: 767px) {
+  .side-menu-container {
+    position: relative;
+  }
+
+  .side-menu-container:after {
+    content: '';
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    height: 80vh;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+    background: linear-gradient(to bottom, #fff 0%, #fff0, 50px, #fff0 calc(100% - 20px), #fff 100%);
+  }
+
+  .side-menu {
+    max-height: 80vh;
+    overflow-y: auto;
+    padding: 0px 0;
+  }
+
+  .side-menu::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* --Colored Link in the Main Menu*/
+
+.vectornator-link {
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+/* --Side Menu Scroll */
+/* width of custom scroll */
+.side-menu-wrapper::-webkit-scrollbar {
+  width: 0px;
+}
+/*
+<!--Gradient Border in CTA Buttons-->*/
+
+.header-white-link.vectornator,
+.header-black-link.Femar {
+  background: url('data:image/svg+xml;utf8,<svg   xmlns="http://www.w3.org/2000/svg" ><defs><linearGradient id="Gradient" x1="40%" x2="55%" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="%23ff00e4" offset="0"/><stop stop-color="%2301ffe4" offset="1"/></linearGradient></defs><rect x="2" y="2" width="100%" height="100%" style="height:calc(100% - 4px);width:calc(100% - 4px)" rx="24" ry="24" stroke-width="2" fill="transparent" stroke="url(%23Gradient)"/></svg>');
+}
+
+@media only screen and (max-width: 767px) {
+
+  .header-link-white.vectornator,
+  .header-link-black.Femar {
+    background: url('data:image/svg+xml;utf8,<svg   xmlns="http://www.w3.org/2000/svg" ><defs><linearGradient id="Gradient" x1="40%" x2="55%" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="%23ff00e4" offset="0"/><stop stop-color="%2301ffe4" offset="1"/></linearGradient></defs><rect x="2" y="2" width="100%" height="100%" style="height:calc(100% - 4px);width:calc(100% - 4px)" rx="28" ry="28" stroke-width="2" fill="transparent" stroke="url(%23Gradient)"/></svg>');
+  }
+}
+
+.primary-cta {
+  background: url('data:image/svg+xml;utf8,<svg   xmlns="http://www.w3.org/2000/svg" ><defs><linearGradient id="Gradient" x1="40%" x2="55%" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="%23ff00e4" offset="0"/><stop stop-color="%2301ffe4" offset="1"/></linearGradient></defs><rect x="2" y="2" width="100%" height="100%" style="height:calc(100% - 4px);width:calc(100% - 4px)" rx="30" ry="30" stroke-width="2" fill="transparent" stroke="url(%23Gradient)"/></svg>');
+}
+
+.secondary-cta {
+  background: url('data:image/svg+xml;utf8,<svg   xmlns="http://www.w3.org/2000/svg" ><defs><linearGradient id="Gradient" x1="40%" x2="55%" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="%23FF0171" offset="0"/><stop stop-color="%23FFEB06" offset="1"/></linearGradient></defs><rect x="2" y="2" width="100%" height="100%" style="height:calc(100% - 4px);width:calc(100% - 4px)" rx="26" ry="26" stroke-width="2" fill="transparent" stroke="url(%23Gradient)"/></svg>');
+}
+
+.secondary-cta:hover {
+  background: url('data:image/svg+xml;utf8,<svg   xmlns="http://www.w3.org/2000/svg" ><defs><linearGradient id="Gradient" x1="40%" x2="55%" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="%23FFEB06" offset="0"/><stop stop-color="%23FF0171" offset="1"/></linearGradient></defs><rect x="2" y="2" width="100%" height="100%" style="height:calc(100% - 4px);width:calc(100% - 4px)" rx="26" ry="26" stroke-width="2" fill="transparent" stroke="url(%23Gradient)"/></svg>');
+}
+
+.secondary-cta-round {
+  background: url('data:image/svg+xml;utf8,<svg   xmlns="http://www.w3.org/2000/svg" ><defs><linearGradient id="Gradient" x1="40%" x2="55%" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="%23FF0171" offset="0"/><stop stop-color="%23FFEB06" offset="1"/></linearGradient></defs><rect x="2" y="2" width="100%" height="100%" style="height:calc(100% - 4px);width:calc(100% - 4px)" rx="30" ry="30" stroke-width="2" fill="transparent" stroke="url(%23Gradient)"/></svg>');
+}
+
+.secondary-cta-round:hover {
+  background: url('data:image/svg+xml;utf8,<svg   xmlns="http://www.w3.org/2000/svg" ><defs><linearGradient id="Gradient" x1="40%" x2="55%" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="%23FFEB06" offset="0"/><stop stop-color="%23FF0171" offset="1"/></linearGradient></defs><rect x="2" y="2" width="100%" height="100%" style="height:calc(100% - 4px);width:calc(100% - 4px)" rx="30" ry="30" stroke-width="2" fill="transparent" stroke="url(%23Gradient)"/></svg>');
+}
+
+@media only screen and (max-width: 767px) {
+  .secondary-cta {
+    background: url('data:image/svg+xml;utf8,<svg   xmlns="http://www.w3.org/2000/svg" ><defs><linearGradient id="Gradient" x1="40%" x2="55%" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="%23FF0171" offset="0"/><stop stop-color="%23FFEB06" offset="1"/></linearGradient></defs><rect x="2" y="2" width="100%" height="100%" style="height:calc(100% - 4px);width:calc(100% - 4px)" rx="22" ry="22" stroke-width="2" fill="transparent" stroke="url(%23Gradient)"/></svg>');
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .secondary-cta:hover {
+    background: url('data:image/svg+xml;utf8,<svg   xmlns="http://www.w3.org/2000/svg" ><defs><linearGradient id="Gradient" x1="40%" x2="55%" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="%23FFEB06" offset="0"/><stop stop-color="%23FF0171" offset="1"/></linearGradient></defs><rect x="2" y="2" width="100%" height="100%" style="height:calc(100% - 4px);width:calc(100% - 4px)" rx="22" ry="22" stroke-width="2" fill="transparent" stroke="url(%23Gradient)"/></svg>');
+  }
+}
+
+.button-m-with-icon:hover {
+  background: url('data:image/svg+xml;utf8,<svg   xmlns="http://www.w3.org/2000/svg" ><defs><linearGradient id="Gradient" x1="40%" x2="55%" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="%23FF0071" offset="0"/><stop stop-color="%23FFF800" offset="1"/></linearGradient></defs><rect x="2" y="2" width="100%" height="100%" style="height:calc(100% - 4px);width:calc(100% - 4px)" rx="24" ry="24" stroke-width="2" fill="transparent" stroke="url(%23Gradient)"/></svg>');
+}
+
+.is-secondary {
+  background: url('data:image/svg+xml;utf8,<svg   xmlns="http://www.w3.org/2000/svg" ><defs><linearGradient id="Gradient" x1="40%" x2="55%" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="%23FF0171" offset="0"/><stop stop-color="%23FFEB06" offset="1"/></linearGradient></defs><rect x="2" y="2" width="100%" height="100%" style="height:calc(100% - 4px);width:calc(100% - 4px)" rx="20" ry="20" stroke-width="2" fill="transparent" stroke="url(%23Gradient)"/></svg>');
+}
+
+@media only screen and (max-width: 478px) {
+  .is-secondary {
+    background: url('data:image/svg+xml;utf8,<svg   xmlns="http://www.w3.org/2000/svg" ><defs><linearGradient id="Gradient" x1="40%" x2="55%" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="%23FF0171" offset="0"/><stop stop-color="%23FFEB06" offset="1"/></linearGradient></defs><rect x="1" y="1" width="100%" height="100%" style="height:calc(100% - 2px);width:calc(100% - 2px)" rx="15" ry="15" stroke-width="1" fill="transparent" stroke="url(%23Gradient)"/></svg>');
+  }
+}
+
+.is-secondary:hover {
+  background: url('data:image/svg+xml;utf8,<svg   xmlns="http://www.w3.org/2000/svg" ><defs><linearGradient id="Gradient" x1="40%" x2="55%" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="%23FFEB06" offset="0"/><stop stop-color="%23FF0171" offset="1"/></linearGradient></defs><rect x="2" y="2" width="100%" height="100%" style="height:calc(100% - 4px);width:calc(100% - 4px)" rx="20" ry="20" stroke-width="2" fill="transparent" stroke="url(%23Gradient)"/></svg>');
+}
+
+@media only screen and (max-width: 478px) {
+  .is-secondary:hover {
+    background: url('data:image/svg+xml;utf8,<svg   xmlns="http://www.w3.org/2000/svg" ><defs><linearGradient id="Gradient" x1="40%" x2="55%" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="%23FFEB06" offset="0"/><stop stop-color="%23FF0171" offset="1"/></linearGradient></defs><rect x="1" y="1" width="100%" height="100%" style="height:calc(100% - 2px);width:calc(100% - 2px)" rx="15" ry="15" stroke-width="1" fill="transparent" stroke="url(%23Gradient)"/></svg>');
+  }
+}
+
+.cookies-accept {
+  background: url('data:image/svg+xml;utf8,<svg   xmlns="http://www.w3.org/2000/svg" ><defs><linearGradient id="Gradient" x1="40%" x2="55%" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="%23ff00e4" offset="0"/><stop stop-color="%2301ffe4" offset="1"/></linearGradient></defs><rect x="2" y="2" width="100%" height="100%" style="height:calc(100% - 4px);width:calc(100% - 4px)" rx="22" ry="22" stroke-width="2" fill="transparent" stroke="url(%23Gradient)"/></svg>');
+}
+
+.fp-one-tool-link:hover {
+  background: url('data:image/svg+xml;utf8,<svg   xmlns="http://www.w3.org/2000/svg" ><defs><linearGradient id="Gradient" x1="0%" x2="100%" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="%23FF0071" offset="0"/><stop stop-color="%23FFF800" offset="1"/></linearGradient></defs><rect x="0" y="0" width="100%" height="100%" style="x:1px; y:1px; height:calc(100% - 1px);width:calc(100% - 1px)" rx="10" ry="10" stroke-width="1" fill="transparent" stroke="url(%23Gradient)"/></svg>');
+}
+
+/*
+<!--Fix Navbar Drop Position-->*/
+
+.w-nav-overlay {
+  top: 0%;
+}
+ /*
+<!--Fix Navbar BG-->*/
+
+.header,
+.header div,
+.header img,
+.header svg {
+  backface-visibility: hidden !important;
+  transform-style: flat !important;
+}
+
+.header {
+  display: block !important;
+}
+
+.header-container {
+  margin: auto;
+}
+
+/*
+<!--No Blue Borders-->*/
+
+*:focus {
+  outline: none;
+}
+
+/*
+
+<!--Blurring Header-->*/
+
+.header-black,
+.header-white {
+  -webkit-backdrop-filter: blur(15px);
+  -moz-backdrop-filter: blur(15px);
+  -o-backdrop-filter: blur(15px);
+  -ms-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+}
+/*
+<!-- Mobile submenu fix-->*/
+
+.dropdown-icon svg {
+  transition: transform .3s ease;
+}
+
+.dropdown-icon.active svg {
+  transform: rotate(180deg);
+}
+
+/*
+<!-- Remove input's inner shadow on iOS --> */
+input[type='text'],
+input[type='email'],
+textarea {
+  appearance: none !important;
+}
+
+/*
+<!--Hide element no matter what-->*/
+
+.is-hidden {
+  display: none !important;
+}
